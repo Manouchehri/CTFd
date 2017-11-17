@@ -82,7 +82,7 @@ function update(){
   scoregraph();
 }
 
-setInterval(update, 300000); // Update scores every 5 minutes
+setInterval(update, 3000); // Update scores every 3 seconds
 scoregraph();
 
 window.onresize = function () {
